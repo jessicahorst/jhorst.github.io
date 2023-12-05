@@ -1,0 +1,32 @@
+---
+title: "DANL 200: Introduction to Data Analytics<br>Project"
+subtitle: "Quarto Template<br><br>" 
+author: Jessica Horst
+  - name: Name 1
+    affiliations:
+      - name: SUNY Geneseo
+  - <br>
+date: "`r Sys.Date()`"
+
+format: 
+  html:
+    toc: true
+    number-sections: true
+    code-fold: false       # https://quarto.org/docs/output-formats/html-code.html
+    code-summary: "Show the code"
+    code-tools: true
+    highlight-style: espresso # atom-one tango espresso
+
+execute: 
+  echo: true
+  eval: true
+  warning: false
+  message: false
+  fig-width: 9
+---
+```{r}
+library(tidyverse)
+library(hrbrthemes)
+library(skimr)
+```
+
