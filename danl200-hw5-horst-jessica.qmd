@@ -2,10 +2,7 @@
 title: "DANL 200: Introduction to Data Analytics<br>Project"
 subtitle: "Quarto Template<br><br>" 
 author: Jessica Horst
-  - name: Name 1
-    affiliations:
-      - name: SUNY Geneseo
-  - <br>
+affiliations: SUNY Geneseo
 date: "`r Sys.Date()`"
 
 format: 
